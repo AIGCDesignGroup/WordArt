@@ -1,19 +1,21 @@
 
-# 创意艺术字设计 （WordArt Designer）
+# WordArt Designer (创意艺术字设计)
 <div align="center">
   <img src='assert/banner.png' width='900'/>
 </div>
 
-## 模型描述
-**WordArt Designer**   This paper introduces WordArt Designer, a user-driven framework for artistic typography synthesis, relying on Large Language Models (LLM). The system incorporates four key modules: the LLM Engine, SemTypo, StyTypo, and TexTypo modules. 1) The LLM Engine, empowered by LLM (e.g. GPT-3.5-turbo), interprets user inputs and generates actionable prompts for the other modules, thereby transforming abstract concepts into tangible designs. 2) The SemTypo module optimizes font designs using semantic concepts, striking a balance between artistic transformation and readability. 3) Building on the semantic layout provided by the SemTypo module, the StyTypo module creates smooth, refined images. 4) The TexTypo module further enhances the design's aesthetics through texture rendering, enabling the generation of inventive textured fonts. Notably, WordArt Designer highlights the fusion of generative AI with artistic typography. 
-（**Modelscope 创意艺术字设计 创空间试用** Link：https://modelscope.cn/studios/WordArt/WordArt/summary **目前已经在Modelscope上完成开源，代码体验** Link：https://modelscope.cn/models/jyhe21/wordart_designer/summary）
+## Framework
+**WordArt Designer**  introduces a user-driven framework for artistic typography synthesis, relying on Large Language Models (LLM). The system incorporates four key modules: the LLM Engine, SemTypo, StyTypo, and TexTypo modules. 1) The LLM Engine, empowered by LLM (e.g. Tongyi QWen), interprets user inputs and generates actionable prompts for the other modules, thereby transforming abstract concepts into tangible designs. 2) The SemTypo module optimizes font designs using semantic concepts, striking a balance between artistic transformation and readability. 3) Building on the semantic layout provided by the SemTypo module, the StyTypo module creates smooth, refined images. 4) The TexTypo module further enhances the design's aesthetics through texture rendering, enabling the generation of inventive textured fonts. Notably, WordArt Designer highlights the fusion of generative AI with artistic typography. 
+
+**Modelscope 创意艺术字设计 创空间试用** Link：https://modelscope.cn/studios/WordArt/WordArt/summary 
+**Modelscope开源代码，代码体验** Link：https://modelscope.cn/models/jyhe21/wordart_designer/summary
 
 
 
 <div align="center">
   <img src='assert/intro.png' width='900'/>
   <br>
-  <i>图 1: WordArt Designer 交互方式示意.</i>
+  <i>图 1: The Introducing of WordArt Designer .</i>
 </div>
 
 
@@ -21,7 +23,7 @@
 <div align="center">
   <img src='assert/framework.png' width='900'/>
   <br>
-  <i>图 1: WordArt Designer 系统框架.</i>
+  <i>图 1: WordArt Designer Framework.</i>
 </div>
 
 
